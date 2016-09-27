@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966DE3B0E7C7AEBB36CF1DC6 /* libPods-Yueba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECFA22A77262974006AC7C /* libPods-Yueba.a */; };
+		CC097C731D6C28A900CD8D09 /* QYHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC097C721D6C28A900CD8D09 /* QYHTTPManager.m */; };
+		CC097C761D6C311800CD8D09 /* RegistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC097C751D6C311800CD8D09 /* RegistVC.m */; };
+		CC097C791D6C386900CD8D09 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC097C781D6C386900CD8D09 /* LoginVC.m */; };
+		CC097C7C1D6C403100CD8D09 /* QYAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = CC097C7B1D6C403100CD8D09 /* QYAccount.m */; };
+		CC82DDEF1D6BF45000EBD781 /* SendSMSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82DDEE1D6BF45000EBD781 /* SendSMSVC.m */; };
+		CC82DDF31D6BF7B200EBD781 /* LanchImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82DDF21D6BF7B200EBD781 /* LanchImageVC.m */; };
+		CC82DDF61D6BFF1A00EBD781 /* NSString+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82DDF51D6BFF1A00EBD781 /* NSString+Log.m */; };
+		CC8393BB1D6BE4940093924C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8393BA1D6BE4940093924C /* main.m */; };
+		CC8393BE1D6BE4940093924C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8393BD1D6BE4940093924C /* AppDelegate.m */; };
+		CC8393C41D6BE4940093924C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8393C21D6BE4940093924C /* Login.storyboard */; };
+		CC8393C61D6BE4940093924C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8393C51D6BE4940093924C /* Assets.xcassets */; };
+		CC8393C91D6BE4940093924C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8393C71D6BE4940093924C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C844E7038297687E5E1A193 /* Pods-Yueba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yueba.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yueba/Pods-Yueba.release.xcconfig"; sourceTree = "<group>"; };
+		4DECFA22A77262974006AC7C /* libPods-Yueba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yueba.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6901CDA259AC9E8D0319D446 /* Pods-Yueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yueba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yueba/Pods-Yueba.debug.xcconfig"; sourceTree = "<group>"; };
+		CC097C711D6C28A900CD8D09 /* QYHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHTTPManager.h; sourceTree = "<group>"; };
+		CC097C721D6C28A900CD8D09 /* QYHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYHTTPManager.m; sourceTree = "<group>"; };
+		CC097C741D6C311800CD8D09 /* RegistVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistVC.h; sourceTree = "<group>"; };
+		CC097C751D6C311800CD8D09 /* RegistVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistVC.m; sourceTree = "<group>"; };
+		CC097C771D6C386900CD8D09 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		CC097C781D6C386900CD8D09 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		CC097C7A1D6C403100CD8D09 /* QYAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYAccount.h; sourceTree = "<group>"; };
+		CC097C7B1D6C403100CD8D09 /* QYAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYAccount.m; sourceTree = "<group>"; };
+		CC82DDED1D6BF45000EBD781 /* SendSMSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendSMSVC.h; sourceTree = "<group>"; };
+		CC82DDEE1D6BF45000EBD781 /* SendSMSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendSMSVC.m; sourceTree = "<group>"; };
+		CC82DDF01D6BF50C00EBD781 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		CC82DDF11D6BF7B200EBD781 /* LanchImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanchImageVC.h; sourceTree = "<group>"; };
+		CC82DDF21D6BF7B200EBD781 /* LanchImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanchImageVC.m; sourceTree = "<group>"; };
+		CC82DDF41D6BFF1A00EBD781 /* NSString+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Log.h"; sourceTree = "<group>"; };
+		CC82DDF51D6BFF1A00EBD781 /* NSString+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Log.m"; sourceTree = "<group>"; };
+		CC8393B61D6BE4940093924C /* Yueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8393BA1D6BE4940093924C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC8393BC1D6BE4940093924C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC8393BD1D6BE4940093924C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC8393C31D6BE4940093924C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		CC8393C51D6BE4940093924C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC8393C81D6BE4940093924C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC8393CA1D6BE4940093924C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC8393B31D6BE4940093924C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966DE3B0E7C7AEBB36CF1DC6 /* libPods-Yueba.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C93C5CE953B2C271EB115492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DECFA22A77262974006AC7C /* libPods-Yueba.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC82DDE51D6BEA7200EBD781 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CC82DDEC1D6BEBDA00EBD781 /* Model */,
+				CC82DDEB1D6BEBC900EBD781 /* View */,
+				CC82DDEA1D6BEBB700EBD781 /* VC */,
+				CC8393C21D6BE4940093924C /* Login.storyboard */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CC82DDE61D6BEB1C00EBD781 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		CC82DDE71D6BEB2B00EBD781 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+		CC82DDE81D6BEB5A00EBD781 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CC82DDF01D6BF50C00EBD781 /* Common.h */,
+				CC82DDF41D6BFF1A00EBD781 /* NSString+Log.h */,
+				CC82DDF51D6BFF1A00EBD781 /* NSString+Log.m */,
+				CC097C711D6C28A900CD8D09 /* QYHTTPManager.h */,
+				CC097C721D6C28A900CD8D09 /* QYHTTPManager.m */,
+				CC097C7A1D6C403100CD8D09 /* QYAccount.h */,
+				CC097C7B1D6C403100CD8D09 /* QYAccount.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		CC82DDE91D6BEB6900EBD781 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CC8393BC1D6BE4940093924C /* AppDelegate.h */,
+				CC8393BD1D6BE4940093924C /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		CC82DDEA1D6BEBB700EBD781 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CC82DDED1D6BF45000EBD781 /* SendSMSVC.h */,
+				CC82DDEE1D6BF45000EBD781 /* SendSMSVC.m */,
+				CC82DDF11D6BF7B200EBD781 /* LanchImageVC.h */,
+				CC82DDF21D6BF7B200EBD781 /* LanchImageVC.m */,
+				CC097C741D6C311800CD8D09 /* RegistVC.h */,
+				CC097C751D6C311800CD8D09 /* RegistVC.m */,
+				CC097C771D6C386900CD8D09 /* LoginVC.h */,
+				CC097C781D6C386900CD8D09 /* LoginVC.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		CC82DDEB1D6BEBC900EBD781 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC82DDEC1D6BEBDA00EBD781 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC8393AD1D6BE4930093924C = {
+			isa = PBXGroup;
+			children = (
+				CC8393B81D6BE4940093924C /* Yueba */,
+				CC8393B71D6BE4940093924C /* Products */,
+				D2D5AB8E17DD0A57373E952C /* Pods */,
+				C93C5CE953B2C271EB115492 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC8393B71D6BE4940093924C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC8393B61D6BE4940093924C /* Yueba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC8393B81D6BE4940093924C /* Yueba */ = {
+			isa = PBXGroup;
+			children = (
+				CC82DDE91D6BEB6900EBD781 /* App */,
+				CC82DDE81D6BEB5A00EBD781 /* Tools */,
+				CC82DDE71D6BEB2B00EBD781 /* Chart */,
+				CC82DDE61D6BEB1C00EBD781 /* Home */,
+				CC82DDE51D6BEA7200EBD781 /* Login */,
+				CC8393B91D6BE4940093924C /* Supporting Files */,
+			);
+			path = Yueba;
+			sourceTree = "<group>";
+		};
+		CC8393B91D6BE4940093924C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC8393CA1D6BE4940093924C /* Info.plist */,
+				CC8393C71D6BE4940093924C /* LaunchScreen.storyboard */,
+				CC8393C51D6BE4940093924C /* Assets.xcassets */,
+				CC8393BA1D6BE4940093924C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2D5AB8E17DD0A57373E952C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6901CDA259AC9E8D0319D446 /* Pods-Yueba.debug.xcconfig */,
+				2C844E7038297687E5E1A193 /* Pods-Yueba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC8393B51D6BE4940093924C /* Yueba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8393CD1D6BE4940093924C /* Build configuration list for PBXNativeTarget "Yueba" */;
+			buildPhases = (
+				FCA9EC107E9A03F72B0E3CE2 /* [CP] Check Pods Manifest.lock */,
+				CC8393B21D6BE4940093924C /* Sources */,
+				CC8393B31D6BE4940093924C /* Frameworks */,
+				CC8393B41D6BE4940093924C /* Resources */,
+				E731BA2F35DBDEAD70D99E43 /* [CP] Embed Pods Frameworks */,
+				E50856A77F07F055E475EAC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yueba;
+			productName = Yueba;
+			productReference = CC8393B61D6BE4940093924C /* Yueba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC8393AE1D6BE4930093924C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC8393B51D6BE4940093924C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CC8393B11D6BE4930093924C /* Build configuration list for PBXProject "Yueba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC8393AD1D6BE4930093924C;
+			productRefGroup = CC8393B71D6BE4940093924C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC8393B51D6BE4940093924C /* Yueba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC8393B41D6BE4940093924C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8393C91D6BE4940093924C /* LaunchScreen.storyboard in Resources */,
+				CC8393C61D6BE4940093924C /* Assets.xcassets in Resources */,
+				CC8393C41D6BE4940093924C /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E50856A77F07F055E475EAC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yueba/Pods-Yueba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E731BA2F35DBDEAD70D99E43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yueba/Pods-Yueba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA9EC107E9A03F72B0E3CE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC8393B21D6BE4940093924C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8393BE1D6BE4940093924C /* AppDelegate.m in Sources */,
+				CC8393BB1D6BE4940093924C /* main.m in Sources */,
+				CC82DDF61D6BFF1A00EBD781 /* NSString+Log.m in Sources */,
+				CC82DDEF1D6BF45000EBD781 /* SendSMSVC.m in Sources */,
+				CC82DDF31D6BF7B200EBD781 /* LanchImageVC.m in Sources */,
+				CC097C7C1D6C403100CD8D09 /* QYAccount.m in Sources */,
+				CC097C761D6C311800CD8D09 /* RegistVC.m in Sources */,
+				CC097C791D6C386900CD8D09 /* LoginVC.m in Sources */,
+				CC097C731D6C28A900CD8D09 /* QYHTTPManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC8393C21D6BE4940093924C /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC8393C31D6BE4940093924C /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		CC8393C71D6BE4940093924C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC8393C81D6BE4940093924C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC8393CB1D6BE4940093924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC8393CC1D6BE4940093924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC8393CE1D6BE4940093924C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6901CDA259AC9E8D0319D446 /* Pods-Yueba.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yueba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.Yueba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC8393CF1D6BE4940093924C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C844E7038297687E5E1A193 /* Pods-Yueba.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Yueba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.Yueba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC8393B11D6BE4930093924C /* Build configuration list for PBXProject "Yueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8393CB1D6BE4940093924C /* Debug */,
+				CC8393CC1D6BE4940093924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8393CD1D6BE4940093924C /* Build configuration list for PBXNativeTarget "Yueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8393CE1D6BE4940093924C /* Debug */,
+				CC8393CF1D6BE4940093924C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC8393AE1D6BE4930093924C /* Project object */;
+}
